@@ -1,4 +1,30 @@
+html {
+    font-family: sans-serif;
+}
 .site-header {
     display: flex;
     justify-content: space-between;
+}
+
+.right-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-nav-link {
+    padding: 4px 12px;
+    margin: 0 8px;
+    color:#000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.right-nav-link:hover{
+    text-decoration: underline;
+}
+
+.cta-link {
+    background-color: rgb(255, 189, 0);
+    border-radius: 15px;
 }
